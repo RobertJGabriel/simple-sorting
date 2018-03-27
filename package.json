@@ -1,0 +1,29 @@
+{
+	"name": "simple-sorting",
+	"version": "0.0.0",
+	"description": "Node module for sorting data though different algorithms",
+	"license": "MIT",
+	"repository": "robertjgabriel/simple-sorting",
+	"author": {
+		"name": "Robert James Gabriel",
+		"email": "robert_gabriel@outlook.com",
+		"url": "robertgabriel.ninja"
+	},
+	"engines": {
+		"node": ">=4"
+	},
+	"scripts": {
+		"test": "xo && ava"
+	},
+	"files": [
+		"index.js"
+	],
+	"keywords": [
+		""
+	],
+	"dependencies": {},
+	"devDependencies": {
+		"ava": "^0.20.0",
+		"xo": "^0.18.2"
+	}
+}
