@@ -17,6 +17,13 @@ const simpleSorting = require('simple-sorting');
 
 sortedArray = simpleSorting.bubbleSort([2, 2, 4, 2]);
 //=> [2, 2, 2, 4]
+
+
+sortedArray = simpleSorting.quickSort([2, 2, 4, 2]);
+//=> [2, 2, 2, 4]
+
+sortedArray = simpleSorting.insertionSort([2, 2, 4, 2]);
+//=> [2, 2, 2, 4]
 ```
 
 
