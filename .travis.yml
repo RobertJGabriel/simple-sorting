@@ -4,3 +4,14 @@ node_js:
   - v8
   - v6
   - v4
+
+before_install:
+- npm install
+
+
+cache:
+  directories:
+    - node_modules
+
+script:
+- npm run test
