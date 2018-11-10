@@ -1,6 +1,6 @@
 # simple-sorting [![Build Status](https://travis-ci.org/RobertJGabriel/simple-sorting.svg?branch=master)](https://travis-ci.org/RobertJGabriel/simple-sorting)
 
-> Node module for sorting data though different algorithms
+> Node module for different sorting algorithms.
 
 
 ## Install
