@@ -15,16 +15,16 @@ $ npm install simple-sorting --save
 ```js
 const sort = require('simple-sorting');
 
-sortedArray = simpleSorting.bubbleSort([2, 2, 4, 2]);
+sortedArray = sort.bubbleSort([2, 2, 4, 2]);
 //=> [2, 2, 2, 4]
 
-sortedArray = simpleSorting.quickSort([2, 2, 4, 2]);
+sortedArray = sort.quickSort([2, 2, 4, 2]);
 //=> [2, 2, 2, 4]
 
-sortedArray = simpleSorting.insertionSort([2, 2, 4, 2]);
+sortedArray = sort.insertionSort([2, 2, 4, 2]);
 //=> [2, 2, 2, 4]
 
-sortedArray = simpleSorting.mergeSort([2, 2, 4, 2]);
+sortedArray = sort.mergeSort([2, 2, 4, 2]);
 //=> [2, 2, 2, 4]
 ```
 
